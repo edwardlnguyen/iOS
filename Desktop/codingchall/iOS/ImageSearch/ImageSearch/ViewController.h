@@ -12,6 +12,7 @@
 #import "ImageSearch.h"
 #import "UIImageView+AFNetworking.h"
 #import "CustomIOSAlertView.h"
+#import "ISTableViewCell.h"
 @interface ViewController : UIViewController <UITextFieldDelegate,UITableViewDataSource,UITableViewDelegate>
 
 

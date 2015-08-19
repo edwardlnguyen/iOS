@@ -25,6 +25,7 @@
 		D9686CCE1B807CA50037903E /* UserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = D9686CC71B807CA50037903E /* UserAgent.m */; };
 		D9686CD01B8146530037903E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9686CCF1B8146530037903E /* Foundation.framework */; };
 		D9686CD21B8146590037903E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9686CD11B8146590037903E /* UIKit.framework */; };
+		D99DC65B1B845AAE00963A61 /* ISTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D99DC65A1B845AAE00963A61 /* ISTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		D9686CC71B807CA50037903E /* UserAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAgent.m; sourceTree = "<group>"; };
 		D9686CCF1B8146530037903E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9686CD11B8146590037903E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D99DC6591B845AAE00963A61 /* ISTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTableViewCell.h; sourceTree = "<group>"; };
+		D99DC65A1B845AAE00963A61 /* ISTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				D9686C9E1B805F190037903E /* LaunchScreen.xib */,
 				D9686C931B805F190037903E /* ImageSearch.xcdatamodeld */,
 				D9686C8C1B805F190037903E /* Supporting Files */,
+				D99DC6591B845AAE00963A61 /* ISTableViewCell.h */,
+				D99DC65A1B845AAE00963A61 /* ISTableViewCell.m */,
 			);
 			path = ImageSearch;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 				D9686CCD1B807CA50037903E /* ImageSearch.m in Sources */,
 				D9686CC81B807CA50037903E /* ConnectSdk.m in Sources */,
 				D9686CCC1B807CA50037903E /* ImageDetail.m in Sources */,
+				D99DC65B1B845AAE00963A61 /* ISTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

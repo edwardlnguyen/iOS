@@ -1,0 +1,25 @@
+#include <stdio.h>
+using namespace std;
+
+void combination(int *number, int n, int remainder, int *someBuffer, int totalSize) {
+    for (int placeHolder = n; placeHolder >= remainder; placeHolder--) {
+        //from the rear, grab the starting number and save, recurse on remaining numbers if there are remainders left to choose from
+        someBuffer[remainder-1] = number[placeHolder-1];
+        if (remainder > 1) { // if there are number to choose
+            combination(number,placeHolder-1,remainder-1,someBuffer,totalSize);
+        } else {
+        	// upon computing the final index, print
+            for (int i = 0; i < totalSize; i++) {
+                printf("%d ",someBuffer[i]);
+            }
+            printf("\n");
+        }
+    }
+}
+
+int main (){
+    int *buff = new int[5];
+    int number[5] = {1,2,3,4,5}; 
+    combination(&number, 5, 3, buff, 5);
+    return 0;
+}
