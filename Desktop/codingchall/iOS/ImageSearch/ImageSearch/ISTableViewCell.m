@@ -10,25 +10,26 @@
 
 
 @implementation ISTableViewCell
-@synthesize imgView;
+@synthesize ISimageView;
 
--(id)initWithFrame:(CGRect)frame initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString*)ident{
+-(id)initWithFrame:(CGRect)frame initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString*)ident {
   self = [super initWithStyle:style reuseIdentifier:ident];
   if (self) {
-    [self setImgView:[[UIImageView alloc]initWithFrame:frame]];
-    [self addSubview:self.imgView];
+    [self setISimageView:[[UIImageView alloc]initWithFrame:frame]];
+    [self addSubview:self.ISimageView];
   }
   return self;
 }
 
+
 - (void)awakeFromNib {
-    // Initialization code
+  // Initialization code
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+  [super setSelected:selected animated:animated];
+  
+  // Configure the view for the selected state
 }
 
 @end

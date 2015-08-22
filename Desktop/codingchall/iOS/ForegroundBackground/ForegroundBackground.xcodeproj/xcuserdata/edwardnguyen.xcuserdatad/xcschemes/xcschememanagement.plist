@@ -4,35 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AFNetworking.xcscheme</key>
+		<key>ForegroundBackground.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>CustomIOSAlertView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>166AEF639B868D6BE5D760AAB3DD3C4B</key>
+		<key>D94367551B87B5AC00ACBF75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5053A199D94693BEFAF8D0B7807DF0EA</key>
+		<key>D94367711B87B5AC00ACBF75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B0AF14D01C54E95CC18952F807E525E3</key>
+		<key>D94367851B88538E00ACBF75</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ISTableViewCell : UITableViewCell
-@property (strong, nonatomic) UIImageView *imgView;
+@property (strong, nonatomic) UIImageView *ISimageView;
 -(id)initWithFrame:(CGRect)frame initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString*)ident;
 @end

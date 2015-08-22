@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E303653866F2134F5191A4B4"
+               BlueprintIdentifier = "8493B9E3047C270C09451A9E"
                BuildableName = "libCustomIOSAlertView.a"
                BlueprintName = "CustomIOSAlertView"
                ReferencedContainer = "container:Pods.xcodeproj">

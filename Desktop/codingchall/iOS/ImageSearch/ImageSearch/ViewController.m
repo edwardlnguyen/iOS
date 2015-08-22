@@ -59,14 +59,8 @@
                                    initWithStyle:UITableViewCellStyleDefault
                                  reuseIdentifier:@"cell"];
   }
-  Class classCmp = NSClassFromString(@"UIImageView");
-  for (id subview in [cell subviews]) {
-    if ([subview class] == classCmp){
-      [subview setImageWithURL:url];
-      return cell;
-    }
-  }
-  return nil;
+  [[cell ISimageView]setImageWithURL:url];
+  return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
